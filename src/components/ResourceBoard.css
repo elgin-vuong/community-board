@@ -1,0 +1,9 @@
+.ResourceBoard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  width: 100vw;
+  max-width: 1300px;
+  margin: 2rem auto 0 auto;
+  box-sizing: border-box;
+}
